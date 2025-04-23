@@ -1,0 +1,43 @@
+body{
+    background-color:#ffffff;
+    color:#141414;
+}
+
+.logo{
+    height:50px;
+    width:auto;
+    padding-right:10px;
+}
+
+.intro{
+    text-align:center;
+    padding-bottom:20px;
+    padding-top:20px;
+    color:#284b63;
+}
+.intro-para{
+    font-size: 20px;
+}
+.home{
+    padding: 20px;
+    color:#141414;
+}
+h4{
+    color:#284b63;
+}
+
+
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#284b63;
+    color:#ffffff;
+    font-size:14px;
+    padding: 10px;
+  }
+
+.social-media{
+    text-align: center;
+  }
