@@ -35,6 +35,12 @@ h4{
     height:auto;
 }
 
+.contact{
+    color:#3c6e71;
+    padding-left:100px;
+    padding-right:100px;
+}
+
 .footer{
     display:flex;
     flex-direction:row;
