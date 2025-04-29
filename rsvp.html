@@ -73,11 +73,61 @@
 </div>
 </nav>
 <header>
-    <img class="header-img" src="Images/events-header.jpg" alt="Red and white wood sign titled Community Events with local events posted.">
-    <!--https://unsplash.com/photos/a-red-sign-with-a-bunch-of-political-signs-on-it-BY2vyIJcyhA-->
+    <img class="header-img" src="Images/events-header.jpg" alt="People sitting on a field at a festival.">
+    <!--https://unsplash.com/photos/a-group-of-people-sitting-on-top-of-a-lush-green-field-2dFHrPhIsyE-->
 </header>
 <main>
 
+    <div class="intro">
+        <h1>RSVP Now!</h1>
+    </div>
+    <form class="contact"> 
+        <div class="mb-3"> 
+            <label for="nameInput" class="form-label"> 
+                Name 
+            </label> 
+            <input type="text" class="form-control" 
+                   id="nameInput"> 
+        </div> 
+        <div class="mb-3"> 
+            <label for="emailInput" class="form-label"> 
+                Email 
+            </label> 
+            <input type="email" class="form-control" 
+                   id="emailInput"> 
+        </div> 
+        <div class="mb-3"> 
+            <label for="phoneInput" class="form-label"> 
+                Phone 
+            </label> 
+            <input type="text" class="form-control" 
+                   id="phoneInput"> 
+        </div> 
+        <div class="form-floating">
+            <select
+                class="form-select pt-3"
+                id="floatingSelectMenu">
+                <option selected>
+                    Select Event
+                </option>
+                <option value="heritage-festival">
+                    Macon County Heritage Festival
+                </option>
+                <option value="hike">
+                    Spring Hike at Standing Indian Mountain
+                </option>
+                <option value="food-festival">
+                    Taste of Macon Food Festival
+                </option>
+                <option value="art-festival">
+                    Franklin Folk Art Festival
+                </option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary"> 
+            Submit 
+        </button> 
+    </form> 
 
 </main>
 

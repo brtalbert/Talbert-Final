@@ -41,6 +41,35 @@ h4{
     padding-right:100px;
 }
 
+.form-floating{
+    padding-bottom: 20px;
+}
+
+.may25{
+    text-align:center;
+    padding-bottom:20px;
+    padding-top:20px;
+    color:#284b63;
+}
+.May{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.june25{
+    text-align:center;
+    padding-bottom:20px;
+    padding-top:40px;
+    color:#284b63;
+}
+.June{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
 .footer{
     display:flex;
     flex-direction:row;
